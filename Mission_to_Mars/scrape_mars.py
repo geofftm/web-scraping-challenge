@@ -14,6 +14,7 @@ def init_browser():
 mars_dict = {}
 
 def mars_news():
+    
     #browser = init_browser()
 
     #visit the Mars News URL
