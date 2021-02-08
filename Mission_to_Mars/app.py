@@ -61,7 +61,7 @@ def home():
 @app.route("/scrape")
 def scrape():
 
-    news = mongo.db.mars_news
+    # news = mongo.db.mars_news
     # Run the scrape function
     mars_facts = scrape_mars.mars_facts()
     mars_news = scrape_mars.mars_news()
