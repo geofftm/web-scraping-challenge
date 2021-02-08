@@ -47,7 +47,7 @@
             <h3 style="text-align: center;"> Mars Hemispheres</h3>
                 <div class="row">
                     {% for item in mars_hemis.Mars_Hemisphere_Image_URLS %}
-                    <div class="col-md-6">
+                    <div class="col-md-6" style="border: 3px solid transparent">
                         <img src="{{item.img_url}}" width="100%"/>
                         <p>{{item.Title}}</p>
                     </div>
