@@ -74,8 +74,8 @@ def mars_facts():
 
     #Parse HTML using Pandas
     tables = pd.read_html(facts_url)
-    df = tables[0]
-    html_table = df.to_html()
+    df = tables[1]
+    html_table = df.to_html(table_id="html_tbl_css", index=False)
 
     mars_dict['tables'] = html_table
     
