@@ -11,7 +11,7 @@ def init_browser():
     browser = Browser('chrome', **executable_path, headless=False)
     return browser
 
-mars_dict = {}
+mars_dict = {} 
 
 def mars_news():
     
